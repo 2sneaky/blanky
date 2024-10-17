@@ -1,9 +1,86 @@
-h1 {
+body {
     font-family: Arial, sans-serif;
-    font-size: 36px;
-    color: #4CAF50;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
     text-align: center;
-    margin: 20px 0;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #444;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+    color: #666;
+}
+
+input, textarea, select {
     padding: 10px;
-    border-bottom: 2px solid #ddd;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #28a745;
+}
+
+hr {
+    border: 1px solid #ccc;
+}
+
+code {
+    background-color: #eee;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mark {
+    background-color: #ffeb3b;
+}
+
+.warning {
+    color: orange;
 }
